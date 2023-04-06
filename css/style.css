@@ -1,0 +1,30 @@
+/*Bakgrundsfärg*/
+body{
+    background-color: rgb(128, 128, 128);
+}
+
+.startlink{
+    text-decoration: none;
+}
+#armenlink:hover{
+    color: rgb(0, 138, 0);
+}
+#marinenlink:hover{
+    color: blue;
+}
+#flyglink:hover{
+    color:rgb(68, 94, 114);
+}
+#kustlink:hover{
+    color: red;
+}
+.startlink:visited,link{
+    color: white;
+}
+.startlink{
+    font-size: 125%;
+}
+.startpicstyle{
+    margin: 0;
+    padding: 0;
+}
