@@ -2,7 +2,10 @@
 body{
     background-color: rgb(128, 128, 128);
 }
-
+footer{
+    background-color: black;
+    display: none;
+}
 .startlink{
     text-decoration: none;
 }
@@ -27,4 +30,16 @@ body{
 .startpicstyle{
     margin: 0;
     padding: 0;
+    width: 20%;
+}
+@media only screen and (max-width: 480px){
+    .frontlink{
+        display: none;
+    }
+    .startpics{
+        display: none;
+    }
+    footer{
+        display: unset !important;
+    }
 }
