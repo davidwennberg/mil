@@ -15,14 +15,14 @@
 }
 /*Placering av länkarna på landingssidan*/
 .frontlink{
-    grid-row: 6 / 8;
+    grid-row: 6 / 7;
     grid-column: 2 / -2;
     display: flex;
     justify-content: space-between;
 }
 /*Placering av bilderna under länkarna*/
 .startpics{
-    grid-row: 8 / 10;
+    grid-row: 7 / 10;
     grid-column: 2 / -2;
     display: flex;
     justify-content: space-between;
@@ -59,7 +59,12 @@
         align-content: space-between;
     }
     footer{
-        grid-row: 14 / 16;
+        grid-row: 14 / 18;
         grid-column: 1 / -1;
+    }
+    .footerlinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }

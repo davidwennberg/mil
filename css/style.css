@@ -1,12 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 /*Bakgrundsfärg*/
 body{
     background-color: rgb(128, 128, 128);
+}
+.inledning{
+    margin: 10px;
+    padding-bottom: 20px;
 }
 footer{
     background-color: black;
     display: none;
 }
-.startlink{
+nav{
+    display: none;
+}
+.startlink,.footlink{
     text-decoration: none;
 }
 #armenlink:hover{
@@ -33,13 +44,51 @@ footer{
     width: 20%;
 }
 @media only screen and (max-width: 480px){
-    .frontlink{
+    .startlink,.startpicstyle{
         display: none;
     }
-    .startpics{
-        display: none;
-    }
+    /*Visar footern när skärmen blir mindre än 480px*/
     footer{
         display: unset !important;
     }
+    #armenlink{
+        color: rgb(0, 138, 0);
+    }
+    #marinenlink{
+        color: blue;
+    }
+    #flyglink{
+        color:rgb(68, 94, 114);
+    }
+    #kustlink{
+        color: red;
+    }
+    /*Navbar i botten på sidan*/
+    nav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgb(17, 143, 0);
+        display: unset !important;
+      }
+      
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      nav li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+      nav a {
+        display: block;
+        padding: 10px;
+        color: #333;
+        text-decoration: none;
+      }
+      nav li.active a {
+        background-color: #ccc;
+      }
 }
