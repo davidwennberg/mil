@@ -39,7 +39,7 @@ nav{
 #kustlink:hover{
     color: red;
 }
-.startlink:visited,link{
+.startlink:visited,a{
     color: white;
 }
 .startlink{
