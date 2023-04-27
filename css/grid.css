@@ -59,7 +59,7 @@
         align-content: space-between;
     }
     footer{
-        grid-row: 16 / 18;
+        grid-row: 14 / 18;
         grid-column: 1 / -1;
     }
     .footerlinks{
