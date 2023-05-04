@@ -7,6 +7,7 @@
 body{
     background-color: rgb(128, 128, 128);
 }
+
 .inledning{
     margin: 10px;
     padding-bottom: 20px;
@@ -27,6 +28,7 @@ nav{
 .startlink,.footlink{
     text-decoration: none;
 }
+/*Färger för länkar på landingssidan*/
 #armenlink:hover{
     color: rgb(0, 138, 0);
 }
@@ -39,6 +41,11 @@ nav{
 #kustlink:hover{
     color: red;
 }
+/*Färger för länkar på sidan om armén*/
+.infolink:hover{
+    color: rgb(0, 138, 0);
+}
+
 .startlink:visited,a{
     color: white;
 }
@@ -50,36 +57,7 @@ nav{
     padding: 0;
     width: 20%;
 }
- /*Navbar i botten på sidan*/
- nav{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgb(0, 69, 29);
-    display: none;
-  }
-  nav.show{
-    display: block;
-  }
-  nav ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  nav li{
-    display: inline-block;
-    margin-right: 20px;
-  }
-  nav a{
-    display: block;
-    padding: 10px;
-    color: #333;
-    text-decoration: none;
-  }
-  nav li.active a{
-    background-color: #ccc;
-  }
+
   #button{
     display: none;
   }
@@ -155,7 +133,7 @@ nav{
     }
     #button{
         font-family: 'forsvarsmakten_sansstencil';
-        background: yellow;
+        background-color: yellow;
         width: 100%;
         position: fixed;
         bottom: 0;
@@ -163,5 +141,8 @@ nav{
         font-size: 7vw;
         display: unset !important;
         
+      }
+      #button:active{
+        background-color: rgb(208, 208, 0);
       }
       }  
