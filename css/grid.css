@@ -1,7 +1,7 @@
 .container{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-auto-rows: minmax(40px, auto);
+    grid-auto-rows: minmax(40px)
 }
 .rubrik{
     grid-column: 1 / -1;
