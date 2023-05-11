@@ -119,7 +119,7 @@ a{
     /*Visar footern när skärmen blir mindre än 480px*/
     footer{
         display: unset !important;
-        font-size: 4vw;
+        font-size: 5vw;
     }
     .armenlink{
         color: rgb(0, 138, 0);
