@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="zxx">
    <head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Militaria</title>
-      <meta charset="utf-8"/>
+      <meta charset="utf-8">
       <link rel="stylesheet" type="text/css" href="css/style.css">
       <link rel="stylesheet" type="text/css" href="css/grid.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
-      <link rel="stylesheet" href="stylesheettext.css" type="text/css" charset="utf-8" />
+      <link rel="stylesheet" href="stylesheet.css" type="text/css">
+      <link rel="stylesheet" href="stylesheettext.css" type="text/css">
       </head>
     <body>
       <div class="container">
@@ -19,10 +19,10 @@
        </p>
        <!--Länkarna på landningssidan-->
         <div class="frontlink">
-           <a id="armenlink" class="startlink" href="armen.html">Armén</a>
-           <a id="marinenlink" class="startlink" href=#>Marinen</a>
-           <a id="flyglink" class="startlink" href=#>Flygvapnet</a>
-          <a id="kustlink" class="startlink" href=#>Kustartilleriet</a>
+           <a class="startlink armenlink" href="armen.html">Armén</a>
+           <a class="startlink marinenlink" href=#>Marinen</a>
+           <a class="startlink flyglink" href=#>Flygvapnet</a>
+           <a class="startlink kustlink" href=#>Kustartilleriet</a>
            </div>
          <div class="startpics">
           <img src="img/strv122.webp" alt="Stridsvagn 122" class="startpicstyle">
@@ -38,6 +38,7 @@
 
         <!-- Overlay content -->
         <div class="overlay-content">
+        <a href="#">Hem</a>
         <a href="armen.html">Armén</a>
         <a href="#">Marinen</a>
         <a href="#">Flygvapnet</a>
@@ -48,21 +49,12 @@
 
 <!-- Use any element to open/show the overlay navigation menu -->
 <span onclick="openNav()" id="button">Meny</span>
-
-        <!-- <nav>
-          <ul>
-            <li><a href=armen.html>Armén</a></li>
-            <li><a href="#">Marinen</a></li>
-            <li><a href="#">Flygvapnet</a></li>
-            <li><a href="#">Kustartilleriet</a></li>
-          </ul>
-        </nav>    -->    
        <footer>
         <ul class="footerlinks">
-         <li> <a id="armenlink" class="footlink" href=armen.html>Armén</a> </li>
-         <li> <a id="marinenlink" class="footlink" href=#>Marinen</a> </li>
-         <li> <a id="flyglink" class="footlink" href=#>Flygvapnet</a> </li>
-         <li> <a id="kustlink" class="footlink" href=#>Kustartilleriet</a> </li>
+          <li> <a class="footlink armenlink" href=armen.html>Armén</a> </li>
+          <li> <a class="footlink marinenlink" href=#>Marinen</a> </li>
+          <li> <a class="footlink flyglink" href=#>Flygvapnet</a> </li>
+          <li> <a class="footlink kustlink" href=#>Kustartilleriet</a> </li>
           </ul>
        </footer>
      </div>

@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    
+    font-family: 'forsvarsmakten_sansstencil';
 }
 /*Bakgrundsfärg*/
 body{
@@ -14,9 +14,7 @@ body ::selection {
     margin: 10px;
     padding-bottom: 20px;
 }
-h1,.startlink,.footlink{
-    font-family: 'forsvarsmakten_sansstencil';
-}
+
 p{
     font-family: 'forsvarsmakten_sansregular';
 }
@@ -27,20 +25,20 @@ footer{
 nav{
     display: none;
 }
-.startlink,.footlink{
+a{
     text-decoration: none;
 }
 /*Färger för länkar på landingssidan*/
-#armenlink:hover{
+.armenlink:hover{
     color: rgb(0, 138, 0);
 }
-#marinenlink:hover{
+.marinenlink:hover{
     color: blue;
 }
-#flyglink:hover{
+.flyglink:hover{
     color:rgb(68, 94, 114);
 }
-#kustlink:hover{
+.kustlink:hover{
     color: red;
 }
 /*Färger för länkar på sidan om armén*/
@@ -121,16 +119,16 @@ nav{
     footer{
         display: unset !important;
     }
-    #armenlink{
+    .armenlink{
         color: rgb(0, 138, 0);
     }
-    #marinenlink{
+    .marinenlink{
         color: blue;
     }
-    #flyglink{
+    .flyglink{
         color:rgb(68, 94, 114);
     }
-    #kustlink{
+    .kustlink{
         color: red;
     }
     #button{
