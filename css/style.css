@@ -119,6 +119,7 @@ a{
     /*Visar footern när skärmen blir mindre än 480px*/
     footer{
         display: unset !important;
+        font-size: 4vw;
     }
     .armenlink{
         color: rgb(0, 138, 0);
@@ -139,7 +140,7 @@ a{
         position: fixed;
         bottom: 0;
         text-align: center;
-        font-size: 7vw;
+        font-size: 9vw;
         display: unset !important;
         
       }
