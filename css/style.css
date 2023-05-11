@@ -17,6 +17,7 @@ body ::selection {
 
 p{
     font-family: 'forsvarsmakten_sansregular';
+    text-decoration-color: rgb(0, 0, 0);
 }
 footer{
     background-color: black;
