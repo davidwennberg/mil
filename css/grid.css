@@ -43,21 +43,6 @@
         grid-column: 1 / -1;
         grid-row: 3 / 6;
     }
-    /*Placering av länkarna på landingssidan
-    .frontlink{
-        grid-row: 6 / 10;
-        grid-column: 2 / -2;
-        display: flex;
-        flex-direction: column;
-        align-content: space-between;
-    }
-    .startpics{
-        grid-row: 10 / 14;
-        grid-column: 2 / -2;
-        display: flex;
-        flex-direction: column;
-        align-content: space-between;
-    } */
     footer{
         grid-row: 7 / 10;
         grid-column: 1 / -1;
