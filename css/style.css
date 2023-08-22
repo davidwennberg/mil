@@ -135,7 +135,7 @@ a{
     }
     #button{
         font-family: 'forsvarsmakten_sansstencil';
-        background-color: yellow;
+        background-color: yellow; 
         width: 100%;
         position: fixed;
         bottom: 0;
